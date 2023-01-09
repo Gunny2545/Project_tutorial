@@ -11,7 +11,7 @@ import Snowfall from 'react-snowfall'
 function App() {
   return (
     <div className="App">
-      <Snowfall />
+      <Snowfall color="purple"/>
       <NavBar />
       <Banner />
       <Skills />
