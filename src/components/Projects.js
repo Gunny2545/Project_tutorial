@@ -70,10 +70,7 @@ export const Projects = () => {
                         {
                           projects.map((project, index) => {
                             return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
+                              <ProjectCard key={index} {...project}/>
                             )
                           })
                         }
